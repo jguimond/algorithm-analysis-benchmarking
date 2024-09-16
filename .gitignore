@@ -1,12 +1,13 @@
-# This is a simple .gitignore that will ignore everything
-# except this file, and cpp and h files
-
-#ignore everything
+# Ignore everything
 *
-*/
 
-#unignore .cpp and .h and this file
+# Do not ignore directories (but still ignore their content)
+!*/
+
+# Do not ignore this .gitignore file
 !.gitignore
+
+# Do not ignore .cpp, .h, and .py files in any directory
 !*.cpp
 !*.h
 !*.py
